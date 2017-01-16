@@ -1,0 +1,12 @@
+#Description
+#Here is a script for Afwall (Android apk, rooted defices)
+#
+#Why blocked?
+#Facebook is grabbing data - so block all its IPs
+#
+#Usage
+#Copy raw data and paste into afwall custom script
+
+
+#facebook.com
+$IPTABLES -A "afwall" -d 31.13.93.36/24 -j REJECT
