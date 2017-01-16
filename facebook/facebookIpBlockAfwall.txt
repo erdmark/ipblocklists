@@ -1,5 +1,7 @@
+#facebookIpBlockAfwall
+#
 #Description
-#Here is a script for Afwall (Android apk, rooted defices)
+#Here is a script for Afwall (Android apk, rooted devices)
 #
 #Why blocked?
 #Facebook is grabbing data - so block all its IPs
