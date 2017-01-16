@@ -1,0 +1,28 @@
+#Description
+#Here is a script for Afwall (Android apk, rooted defices)
+#
+#Why blocked?
+#Google is grabbing data - so block all its IPs
+#
+#Usage
+#Copy raw data and paste into afwall custom script
+
+
+#m.youtube.com
+$IPTABLES -A "afwall" -d 4.53.56.94/16 -j REJECT
+
+#GoogleDNS
+$IPTABLES -A "afwall" -d 8.8.0.0/16 -j REJECT
+
+#Google.com, googlesyndication.com, google-analytics.com
+$IPTABLES -A "afwall" -d 216.58.0.0/16 -j REJECT
+
+#googleadservices.com
+$IPTABLES -A "afwall" -d 172.217.16.162/16 -j REJECT
+$IPTABLES -A "afwall" -d 216.58.214.130/24 -j REJECT
+
+#googleads.g.doubleclick.net
+$IPTABLES -A "afwall" -d 78.136.92.83/24 -j REJECT
+
+#googlesyndication.net
+$IPTABLES -A "afwall" -d 98.124.199.121/24 -j REJECT
