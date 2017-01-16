@@ -1,3 +1,5 @@
+#ipblocklists/google/googleIpBlockAfwall.txt
+#
 #Description
 #Here is a script for Afwall (Android apk, rooted defices)
 #
