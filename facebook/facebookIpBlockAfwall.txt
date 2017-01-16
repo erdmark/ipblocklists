@@ -1,4 +1,4 @@
-#facebookIpBlockAfwall
+#ipblocklists/facebook/facebookIpBlockAfwall.txt
 #
 #Description
 #Here is a script for Afwall (Android apk, rooted devices)
